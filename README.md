@@ -11,3 +11,27 @@ This repository is for our NLP-based poetry generation project using fine-tuned 
 - scripts/ – helper shell scripts
 - docs/ – documentation & reports
 - tests/ – unit/integration tests
+
+## Collaboration / Getting started
+
+1. Clone:
+   git clone https://github.com/YashadaTembe/nlp-poetry-project.git
+   cd nlp-poetry-project
+
+2. Create environment:
+   conda env create -f environment.yml
+   conda activate poetry-nlp
+
+3. Update main before working:
+   git checkout main
+   git pull origin main
+
+4. Create a branch:
+   git checkout -b feature/<your-feature>
+
+5. Work, commit, push:
+   git add .
+   git commit -m "Brief description"
+   git push origin feature/<your-feature>
+
+6. Open a Pull Request on GitHub and request a review.
