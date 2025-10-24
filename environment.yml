@@ -1,0 +1,16 @@
+name: poetry-nlp
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch
+    - transformers
+    - datasets
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+    - nltk
+    - cmudict
+    - tqdm
+    - jupyter
